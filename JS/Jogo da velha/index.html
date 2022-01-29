@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da velha</title>
+    <script src="jogo.js"></script>
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+    <div id="btn-jogar">JOGAR</div>
+    <div id="jogo" style="display: none;">
+        <div id="tabuleiro">
+            <!--Detalhe, na verdade trata-se do eixo Y, mas so fui perceber isto apos o final do projeto...-->
+            <div class="eixo-x">
+                <div id="posicao-1">&nbsp</div>
+                <div id="posicao-4">&nbsp</div>
+                <div id="posicao-7">&nbsp</div>
+            </div>
+            <div class="eixo-x">
+                <div id="posicao-2">&nbsp</div>
+                <div id="posicao-5">&nbsp</div>
+                <div id="posicao-8">&nbsp</div>
+            </div>
+            <div class="eixo-x">
+                <div id="posicao-3">&nbsp</div>
+                <div id="posicao-6">&nbsp</div>
+                <div id="posicao-9">&nbsp</div>
+            </div>
+        </div>
+        <div id="vitorias">
+            <div id="vitorias-x">Vitorias de X: 0</div>
+            <div id="vitorias-o">Vitorias de O: 0</div>
+        </div>
+    </div>
+    <script src="outros.js"></script>
+</body>
+</html>

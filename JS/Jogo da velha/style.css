@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tabuleiro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#btn-jogar{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 45px;
+    background-color: green;
+}
+
+#jogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vitorias{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#posicao-1{
+    border-left: none;
+    border-top: none;
+}
+
+#posicao-2{
+    border-top: none;
+}
+
+#posicao-3{
+    border-top: none;
+    border-right: none;
+}
+
+#posicao-4{
+    border-left: none;
+}
+
+#posicao-6{
+    border-right: none;
+}
+
+#posicao-7{
+    border-left: none;
+    border-bottom: none;
+}
+
+#posicao-8{
+    border-bottom: none;
+}
+
+#posicao-9{
+    border-right: none;
+    border-bottom: none;
+}
+
+.eixo-x div{
+    border: 1px solid black;
+    padding: 100px;
+}
